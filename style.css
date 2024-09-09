@@ -1,0 +1,183 @@
+html{
+  font-family: "Oswald", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+   scroll-behavior:smooth;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:content-box ;
+}
+/*HEADER SECTION BEGIN*/
+#heading{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#logo img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+#menu ul{
+  display: flex;
+  padding: 30px;
+  list-style: none;
+  font-size: 25px;
+}
+#menu ul li a{
+  margin: 20px;
+  text-decoration: none;
+}
+
+/*HEADER SECTION END*/
+
+/*HERO SECTION BEGIN*/
+#home{
+    background-image: url('images/hero.png');
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+}
+#home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#home-content h1{
+  margin-top: 10px ;
+color: white;
+padding-bottom: 15px
+}
+#home-content  p{
+  color: white;
+  font-size: 20px;
+}
+#button{
+  border: 2px solid white;
+  margin-top: 35px;
+  padding: 10px;
+  background-color: #365ddd;
+}
+#button a{
+  color: white;
+  text-decoration: none;
+}
+/*HERO SECTION END*/
+
+/*SERVICE SECTION BEGIN*/
+#srvc-bg{
+  background-color: #E1D9D1;
+  border-radius: 15px;
+}
+#services{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#services div h2{
+   color: #365ddd ;
+   margin-top: 17px ;
+   margin-bottom: 10px;
+}
+#srvc-content{
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-evenly;
+  background-color: #E1D9D1;
+  border-radius: 20px;
+  flex-wrap: wrap;
+}
+#item img{
+  height: 200px;
+  width: 250px;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 7px;
+  border: 3px solid #365ddd;
+  background-color: #E1D9D1;
+  border-radius: 20px;
+  flex-wrap: wrap;
+}
+#item h3{
+  color: #365ddd;
+  align-items: center;
+  margin-top: 5px;
+  text-align: center;
+}
+#srvc-content a{
+  text-decoration: none;
+}
+
+/*About Section Begin*/
+#about{
+ text-align: center;
+}
+
+#about h4{
+  margin-top: 30px;
+  border: 2px solid white;
+  color: white;
+  font-size: 30px;
+  background-color: #365ddd;
+}
+#feedback{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#feedback-right form{
+  display: flex;
+  flex-direction: column;
+}
+#feedback-right form input{
+  margin: 10px;
+}
+/*About Section End*/
+
+/*Contact Us Section Begin*/
+#contact{
+  text-align: center;
+}
+#contact h5{
+  font-size: 25px;
+  border: 3px solid white;
+  background-color: #365ddd;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+}
+#contact-img{
+  height: 3vh;
+ width: 20px;
+}
+#contact-list-colour{
+
+color: black;
+text-decoration: none;
+}
+/*Contact Us Section end*/
+/*Footer Section Begin*/
+
+#footer{
+  text-align: center;
+  color: white;
+  background-color: black;
+  margin-top: 20px;
+  margin-bottom: 10px
+  
+  }
+
+
+
+
+
+/*Footer Section End*/
